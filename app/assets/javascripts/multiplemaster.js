@@ -1,5 +1,5 @@
-$(document).on('ready page:load', function(){
-
+// $(document).ready(function(){	
+$(document).on('ready page:change', function(){
 
 
     //Set variables: i.e., textArea sizes

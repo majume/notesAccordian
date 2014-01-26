@@ -1,0 +1,2 @@
+module MenumasterHelper
+end
