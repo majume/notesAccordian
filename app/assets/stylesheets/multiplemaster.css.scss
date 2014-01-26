@@ -1,0 +1,168 @@
+// Place all the styles related to the multiplemaster controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+#fieldsetNote1 {
+	padding: 2px;
+	background-color: #fff;
+	position: relative;
+	text-align: left;
+	width: 95em;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	border-top-style: groove;
+	border-right-style: groove;
+	border-bottom-style: groove;
+	border-left-style: groove;
+	border-top-width: 2px;
+	border-right-width: 2px;
+	border-bottom-width: 2px;
+	border-left-width: 2px;
+
+	ul {
+	list-style: none;
+	/*padding-top: 2px;*/
+	padding-right: 2px;
+	padding-bottom: 0;
+	padding-left: 2px;
+	position: relative;
+	clear: both;
+	margin: 2px;
+    } 
+
+    li {
+	/*One markup-free solution to ensuring a parent contains any of its 
+	floated children is to also float the parent,*/
+    /*float: left; */
+	clear: left;
+	position: relative;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	margin-top: 1px;
+	margin-right: 1px;
+	margin-bottom: 2px;  /*25px*/
+	margin-left: 1px;
+    }
+
+	.hidden{
+	   display: none;
+	}
+
+
+
+
+
+
+.head1{
+	font-size: 14px;
+	font-weight: normal;
+	background-color:#AEDBFF;
+	clear: both;
+	padding: 7px;
+	line-height: normal;
+	position: relative;
+	margin-top: 2px;
+	margin-right: 2px;
+	margin-bottom: 10px;
+	margin-left: 2px;
+	text-align: center;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.head2 {
+	font-size: 12px;
+	font-weight: bold;
+	background-color:#AEDBFF;
+	clear: both;
+	padding: 3px;
+	line-height: normal;	/*position: relative;*/
+	margin-top: 10px;
+	margin-right: 2px;
+	margin-bottom: 5px;  /*5px*/
+	margin-left: 2px;
+}
+.heading1_hover{
+  cursor: pointer;
+  background-color:#91C2FF;
+}
+/* #noteList .noteList_hover{  */
+.noteList_hover{ 
+  cursor: pointer;
+  background-color:#91C2FF
+}
+.picture {
+	margin-top: 1em;
+	overflow: hidden;
+	position: relative;
+}
+
+.FloatLt {
+	float:left;
+	position: relative;
+	padding: 1px;
+	margin-top: 1px;
+	margin-right: 1px;
+	margin-bottom: 1px;
+	margin-left: 0px;
+}
+.clearLtONLY {
+	clear: left;
+	position: relative;
+}
+
+.wrap1_g {
+	margin: 1px;
+	padding: 1px;
+	position: relative;
+	overflow: hidden;
+}
+
+.LtFloatOnly_g {
+	margin: 1px;
+	padding: 1px;
+	position: relative;
+	float: left;
+	overflow: hidden;
+}
+.LtClear_g {
+	clear: left;
+}
+
+.textArea1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	background-color: #FFFFFF;
+	text-align: left;
+	vertical-align: top;
+	word-spacing: normal;
+	padding: 2px;
+	border-top-width: 2px;
+	border-right-width: 2px;
+	border-bottom-width: 2px;
+	border-left-width: 2px;
+	border-top-style: groove;
+	border-right-style: groove;
+	border-bottom-style: groove;
+	border-left-style: groove;
+	position: relative;
+}
+.button11 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	text-align: center;
+	position: relative;
+}
+.button9 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	text-align: center;
+	position: relative;
+}
+
+} /* end fieldsetNote1 */
