@@ -1,0 +1,14 @@
+// $('body').html("This should overrite") 
+//$('body').html("<%= escape_javascript(@pnote.para3) %>")
+// $('#test1').html("<%= escape_javascript(@pnote.para3) %>")
+
+ // $('#test1').html("<%= escape_javascript(render('showPartial')) %>")
+
+ //$('#test1').html("<%= escape_javascript(@pnote.para3) %>")
+ //$('#taItemValue1').html("<%= escape_javascript(@pnote.para3) %>")
+
+ // $('#divContainer1').show();
+ // $('#divContainer1').html('something');
+
+ //$("<%= escape_javascript(render @apatient) %>").appendTo("#patients")
+ $("<%= escape_javascript(render @apatient)%>").appendTo("#patients")

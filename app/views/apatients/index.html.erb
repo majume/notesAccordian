@@ -1,0 +1,17 @@
+<h1>Listing apatients</h1>
+
+
+<ul id="patients">
+  <% @apatients.each do |apatient| %>
+    <li><%= apatient.first_name %> <%= apatient.last_name %></li>
+  <% end %>
+</ul>
+<br>
+<%= render 'form' %>
+
+
+
+
+
+
+

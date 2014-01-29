@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Para1:</strong>
+  <%= @pnote.para1 %>
+</p>
+
+<p>
+  <strong>Para2:</strong>
+  <%= @pnote.para2 %>
+</p>
+
+<p>
+  <strong>Para3:</strong>
+  <%= @pnote.para3 %>
+</p>
+
+<p>
+  <strong>Patient:</strong>
+  <%= @pnote.patient_id %>
+</p>
+
+<%= link_to 'Edit', edit_pnote_path(@pnote) %> |
+<%= link_to 'Back', pnotes_path %>
+

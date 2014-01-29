@@ -1,11 +1,12 @@
 
 <ul id="main-menu" class="sm sm-blue">
   <!-- <li><img src="/images/rails.jpg" width="57" height="30"></li> -->
-  <li><%= image_tag 'rails.jpg', size: '35x45' %></li>
+  <li><%= image_tag 'rails.jpg', size: '35x43' %></li>
   <li><%= image_tag 'eCare3.gif', size: '35x25' %></li>
   <li><a href="#">Lists/Grids</a>
     <ul>
       <li><a href="<%= patients_path %>">Default Scaffold List</a></li>
+      <li><a href="<%= apatients_path %>">Def Scaffold List + AJAX</a></li>
     </ul>
   </li>
   <li><a href="">Notes</a>
@@ -13,6 +14,7 @@
       <li><a href="<%= multiplemaster_show_path %>">ComplexMaster</a></li>
       <li><a href="#">SimpleMaster</a></li>
       <li><a href="">ShapeMeds-function</a></li>
+      <li><a href="<%= pnotes_path %>">Default Scaffold Pnotes</a></li>
     </ul>
   </li>
   <li><a href="#">Menus</a>

@@ -1,4 +1,10 @@
 AccordianNotes::Application.routes.draw do
+  resources :users
+
+  resources :apatients
+
+  resources :pnotes
+
   get "smartmenus/show"
   get "menumaster/show"
   get "multiplemaster/show"

@@ -1,0 +1,36 @@
+<h1>Listing pnotes</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Para1</th>
+      <th>Para2</th>
+      <th>Para3</th>
+      <th>Patient</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @pnotes.each do |pnote| %>
+      <tr>
+        <td><%= pnote.para1 %></td>
+        <td><%= pnote.para2 %></td>
+        <td><%= pnote.para3 %></td>
+        <td><%= pnote.patient_id %></td>
+        <td><%= link_to 'Show', pnote %></td>
+        <td><%= link_to 'Edit', edit_pnote_path(pnote) %></td>
+        <td><%= link_to 'Destroy', pnote, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Pnote', new_pnote_path %>
+<%#= link_to 'New Pnote', new_pnote_path, method: :post %>
+
+<div id="placeholder"></div>

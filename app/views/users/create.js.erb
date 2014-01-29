@@ -1,0 +1,4 @@
+//$("<%= escape_javascript(render @user)%>").appendTo("#trash")
+
+$('#trash').html("<%= escape_javascript(render('user')) %>")
+//$('#trash').html("anything goes")
